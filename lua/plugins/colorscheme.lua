@@ -27,7 +27,8 @@ return {
           highlights = {
             -- TelescopeBorder = { fg = "#ffffff" },
             -- FloatBorder = { fg = "#FFFFFF", bg = t.bg },
-            LspInfoBorder = { fg = "#adb1ba" },
+            LspInfoBorder = { fg = "#FFFFFF" },
+            GitSignsCurrentLineBlame = { fg = "#3C4048" },
             -- LineNr = { fg = "#FFFFFF", t.bg },
             -- VertSplit = { fg = "#FFFFFF", bg = t.bg },
             -- WinSeparator = { fg = "#FFFFFF", bg = t.bg },
