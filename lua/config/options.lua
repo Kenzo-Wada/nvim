@@ -26,6 +26,8 @@ vim.opt.shiftwidth = 2
 vim.opt.tabstop = 2
 vim.opt.virtualedit = "onemore"
 
+vim.g.lazygit_config = false
+
 -- for neovide
 -- vim.g.neovide_transparency = 0.3
 -- vim.g.transparency = 0.0
