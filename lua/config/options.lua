@@ -4,7 +4,7 @@
 
 vim.opt.cursorline = true
 vim.opt.termguicolors = true
-vim.opt.background = "dark"
+-- vim.opt.background = "dark"
 vim.opt.winblend = 0
 vim.opt.pumblend = 0
 vim.opt.relativenumber = false
@@ -12,6 +12,7 @@ vim.opt.swapfile = false
 vim.opt.title = true
 vim.opt.autoindent = true
 vim.opt.hlsearch = true
+vim.opt.incsearch = true
 vim.opt.backup = false
 vim.opt.showcmd = true
 vim.opt.cmdheight = 1
@@ -21,10 +22,13 @@ vim.opt.scrolloff = 10
 vim.opt.shell = "/bin/zsh"
 vim.opt.ignorecase = true
 vim.opt.smarttab = true
+vim.opt.smartcase = true
 vim.opt.breakindent = true
 vim.opt.shiftwidth = 2
 vim.opt.tabstop = 2
 vim.opt.virtualedit = "onemore"
+vim.opt.autoindent = true
+-- vim.opt.wildmenu = true
 
 vim.g.lazygit_config = false
 
