@@ -71,6 +71,7 @@ return {
         -- A value of "leave" means the position will be updated when leaving the mode.
         -- `nil` = disabled
         show_last_positions = nil,
+        max_threshold = 0,
       })
     end,
   },

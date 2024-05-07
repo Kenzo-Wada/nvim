@@ -49,4 +49,10 @@ return {
       vim.cmd("colorscheme cyberdream") -- set the colorscheme
     end,
   },
+  {
+    "LazyVim/LazyVim",
+    opts = {
+      colorscheme = "cyberdream",
+    },
+  },
 }

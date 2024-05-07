@@ -1,6 +1,7 @@
 -- Options are automatically loaded before lazy.nvim startup
 -- Default options that are always set: https://github.com/LazyVim/LazyVim/blob/main/lua/lazyvim/config/options.lua
 -- Add any additional options here
+--
 
 vim.opt.cursorline = true
 vim.opt.termguicolors = true
@@ -30,17 +31,18 @@ vim.opt.virtualedit = "onemore"
 vim.opt.autoindent = true
 -- vim.opt.wildmenu = true
 
-vim.g.lazygit_config = false
+-- vim.g.lazygit_config = false
 
 -- for neovide
+-- if vim.g.neovide then
 -- vim.g.neovide_transparency = 0.3
 -- vim.g.transparency = 0.0
 -- vim.g.neovide_floating_shadow = true
 -- vim.g.neovide_cursor_vfx_mode = "sonicboom"
 -- vim.g.neovide_window_blurred = true
--- vim.g.neovide_floating_blur_amount_x = 2.0
--- vim.g.neovide_floating_blur_amount_y = 2.0
--- vim.o.guifont = "Hack Nerd Font:h12"
+-- vim.g.neovide_floating_blur_amount_x = 10.0
+-- vim.g.neovide_floating_blur_amount_y = 10.0
+-- vim.o.guifont = "Hack Nerd Font,termicons:h14"
 -- vim.g.neovide_hide_mouse_when_typing = true
 -- vim.g.neovide_theme = "auto"
 -- vim.g.neovide_refresh_rate = 60
@@ -57,6 +59,7 @@ vim.g.lazygit_config = false
 -- vim.g.neovide_cursor_animate_in_replace_mode = true
 -- vim.g.neovide_cursor_animate_in_command_mode = true
 -- vim.g.neovide_cursor_animate_in_term_mode = true
---
--- vim.api.nvim_set_hl(0, "NeotreeNormal", { guibg = "NONE", ctermbg = "NONE" })
--- vim.api.nvim_set_hl(0, "NeotreeNormalNC", { guibg = "NONE", ctermbg = "NONE" })
+
+vim.api.nvim_set_hl(0, "NeotreeNormal", { guibg = "NONE", ctermbg = "NONE" })
+vim.api.nvim_set_hl(0, "NeotreeNormalNC", { guibg = "NONE", ctermbg = "NONE" })
+-- end

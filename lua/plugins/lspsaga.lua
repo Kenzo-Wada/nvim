@@ -2,12 +2,7 @@ return {
   {
     "nvimdev/lspsaga.nvim",
     config = function()
-      require("lspsaga").setup({
-        beacon = {
-          enable = true,
-          frequency = 7,
-        },
-      })
+      require("lspsaga").setup({})
     end,
     dependencies = {
       "nvim-treesitter/nvim-treesitter", -- optional
