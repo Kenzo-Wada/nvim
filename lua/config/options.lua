@@ -31,7 +31,7 @@ vim.opt.virtualedit = "onemore"
 vim.opt.autoindent = true
 -- vim.opt.wildmenu = true
 
--- vim.g.lazygit_config = false
+vim.g.lazygit_config = false
 
 -- for neovide
 -- if vim.g.neovide then
@@ -60,6 +60,6 @@ vim.opt.autoindent = true
 -- vim.g.neovide_cursor_animate_in_command_mode = true
 -- vim.g.neovide_cursor_animate_in_term_mode = true
 
-vim.api.nvim_set_hl(0, "NeotreeNormal", { guibg = "NONE", ctermbg = "NONE" })
-vim.api.nvim_set_hl(0, "NeotreeNormalNC", { guibg = "NONE", ctermbg = "NONE" })
+-- vim.api.nvim_set_hl(0, "NeotreeNormal", { guibg = "NONE", ctermbg = "NONE" })
+-- vim.api.nvim_set_hl(0, "NeotreeNormalNC", { guibg = "NONE", ctermbg = "NONE" })
 -- end
