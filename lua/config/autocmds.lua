@@ -3,10 +3,10 @@
 -- Add any additional autocmds here
 --
 
-vim.api.nvim_command("hi NeotreeNormal guibg=NONE ctermbg=NONE")
-vim.api.nvim_command("hi NeotreeNormalNC guibg=NONE ctermbg=NONE")
+-- vim.api.nvim_command("hi NeotreeNormal guibg=NONE ctermbg=NONE")
+-- vim.api.nvim_command("hi NeotreeNormalNC guibg=NONE ctermbg=NONE")
 
-vim.api.nvim_create_autocmd("VimEnter", {
-  pattern = "*",
-  command = "Outline",
-})
+-- vim.api.nvim_create_autocmd("VimEnter", {
+--   pattern = "*",
+--   command = "Outline",
+-- })

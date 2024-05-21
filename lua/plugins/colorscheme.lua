@@ -23,6 +23,7 @@ return {
         italic_comments = true,
         hide_fillchars = false,
         borderless_telescope = false,
+        terminal_colors = true,
         theme = {
           highlights = {
             -- TelescopeBorder = { fg = "#ffffff" },
@@ -33,12 +34,15 @@ return {
             -- VertSplit = { fg = "#FFFFFF", bg = t.bg },
             -- WinSeparator = { fg = "#FFFFFF", bg = t.bg },
           },
-          colors = {
-            bgHighlight = "#adb1ba",
-          },
         },
       })
       vim.cmd("colorscheme cyberdream") -- set the colorscheme
     end,
+  },
+  {
+    "LazyVim/LazyVim",
+    opts = {
+      colorscheme = "cyberdream",
+    },
   },
 }

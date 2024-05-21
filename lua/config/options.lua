@@ -29,30 +29,31 @@ vim.opt.virtualedit = "onemore"
 vim.g.lazygit_config = false
 
 -- for neovide
--- vim.g.neovide_transparency = 0.3
--- vim.g.transparency = 0.0
--- vim.g.neovide_floating_shadow = true
--- vim.g.neovide_cursor_vfx_mode = "sonicboom"
--- vim.g.neovide_window_blurred = true
--- vim.g.neovide_floating_blur_amount_x = 2.0
--- vim.g.neovide_floating_blur_amount_y = 2.0
--- vim.o.guifont = "Hack Nerd Font:h12"
--- vim.g.neovide_hide_mouse_when_typing = true
--- vim.g.neovide_theme = "auto"
--- vim.g.neovide_refresh_rate = 60
--- vim.g.neovide_confirm_quit = true
--- vim.g.neovide_cursor_animation_length = 0.1
--- vim.g.neovide_cursor_trail_length = 10
--- vim.g.neovide_cursor_antialiasing = true
--- vim.g.neovide_cursor_vfx_particle_lifetime = 1.2
--- vim.g.neovide_cursor_vfx_particle_speed = 20.0
--- vim.g.neovide_cursor_vfx_particle_density = 10.0
--- vim.g.neovide_cursor_animate_in_insert_mode = true
--- vim.g.neovide_cursor_animate_in_normal_mode = true
--- vim.g.neovide_cursor_animate_in_visual_mode = true
--- vim.g.neovide_cursor_animate_in_replace_mode = true
--- vim.g.neovide_cursor_animate_in_command_mode = true
--- vim.g.neovide_cursor_animate_in_term_mode = true
---
+if vim.g.neovide then
+  vim.g.neovide_transparency = 0.8
+  vim.g.transparency = 0.0
+  vim.g.neovide_floating_shadow = true
+  vim.g.neovide_cursor_vfx_mode = "sonicboom"
+  vim.g.neovide_window_blurred = true
+  vim.g.neovide_floating_blur_amount_x = 2.0
+  vim.g.neovide_floating_blur_amount_y = 2.0
+  vim.o.guifont = "Hack Nerd Font,termicons"
+  vim.g.neovide_hide_mouse_when_typing = true
+  vim.g.neovide_theme = "auto"
+  vim.g.neovide_refresh_rate = 60
+  vim.g.neovide_confirm_quit = true
+  vim.g.neovide_cursor_animation_length = 0.1
+  vim.g.neovide_cursor_trail_length = 10
+  vim.g.neovide_cursor_antialiasing = true
+  vim.g.neovide_cursor_vfx_particle_lifetime = 1.2
+  vim.g.neovide_cursor_vfx_particle_speed = 20.0
+  vim.g.neovide_cursor_vfx_particle_density = 10.0
+  vim.g.neovide_cursor_animate_in_insert_mode = true
+  vim.g.neovide_cursor_animate_in_normal_mode = true
+  vim.g.neovide_cursor_animate_in_visual_mode = true
+  vim.g.neovide_cursor_animate_in_replace_mode = true
+  vim.g.neovide_cursor_animate_in_command_mode = true
+  vim.g.neovide_cursor_animate_in_term_mode = true
+end
 -- vim.api.nvim_set_hl(0, "NeotreeNormal", { guibg = "NONE", ctermbg = "NONE" })
 -- vim.api.nvim_set_hl(0, "NeotreeNormalNC", { guibg = "NONE", ctermbg = "NONE" })
