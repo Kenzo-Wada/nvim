@@ -1,17 +1,4 @@
 return {
-  -- {
-  --   "folke/tokyonight.nvim",
-  --   lazy = false,
-  --   pripriority = 1000,
-  --   opts = {
-  --     transparent = true,
-  --     style = "night",
-  --     styles = {
-  --       sidebars = "tansparent",
-  --       floats = "transparent",
-  --     },
-  --   },
-  -- },
   {
     "scottmckendry/cyberdream.nvim",
     lazy = false,

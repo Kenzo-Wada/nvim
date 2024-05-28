@@ -1,6 +1,8 @@
 return {
   {
     "axkirillov/hbac.nvim",
-    config = true,
+    config = function()
+      require("hbac").setup({})
+    end,
   },
 }
