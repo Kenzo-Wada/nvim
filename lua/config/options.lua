@@ -5,7 +5,7 @@
 
 vim.opt.cursorline = true
 vim.opt.termguicolors = true
--- vim.opt.background = "dark"
+vim.opt.background = "dark"
 vim.opt.winblend = 0
 vim.opt.pumblend = 0
 vim.opt.relativenumber = false
@@ -42,7 +42,7 @@ if vim.g.neovide then
   vim.g.neovide_window_blurred = true
   vim.g.neovide_floating_blur_amount_x = 10.0
   vim.g.neovide_floating_blur_amount_y = 10.0
-  vim.o.guifont = "HackGen35 Console NF"
+  vim.o.guifont = "PleckJP"
   vim.g.neovide_hide_mouse_when_typing = true
   vim.g.neovide_theme = "auto"
   vim.g.neovide_refresh_rate = 60

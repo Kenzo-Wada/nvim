@@ -5,7 +5,6 @@ return {
     priority = 1000,
     config = function()
       require("cyberdream").setup({
-        -- Recommended - see "Configuring" below for more config options
         transparent = true,
         italic_comments = true,
         hide_fillchars = false,
@@ -29,7 +28,7 @@ return {
             RainbowDelimiterCyan = { fg = "#5ea1ff" },
           },
           colors = {
-            bgHighlight = "#adb1ba",
+            -- bgHighlight = "#adb1ba",
           },
         },
       })
