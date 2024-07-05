@@ -26,6 +26,8 @@ return {
             RainbowDelimiterGreen = { fg = "#5eff6c" },
             RainbowDelimiterViolet = { fg = "#bd5eff" },
             RainbowDelimiterCyan = { fg = "#5ea1ff" },
+            up_to_date = { fg = "#3C4048" }, -- Text color for up to date dependency virtual text
+            outdated = { fg = "#d19a66" }, -- Text color for outdated dependency virtual text
           },
           colors = {
             -- bgHighlight = "#adb1ba",

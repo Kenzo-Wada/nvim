@@ -42,7 +42,7 @@ if vim.g.neovide then
   vim.g.neovide_window_blurred = true
   vim.g.neovide_floating_blur_amount_x = 10.0
   vim.g.neovide_floating_blur_amount_y = 10.0
-  vim.o.guifont = "PleckJP"
+  vim.o.guifont = "PleckJP,termicons"
   vim.g.neovide_hide_mouse_when_typing = true
   vim.g.neovide_theme = "auto"
   vim.g.neovide_refresh_rate = 60
@@ -59,4 +59,5 @@ if vim.g.neovide then
   vim.g.neovide_cursor_animate_in_replace_mode = true
   vim.g.neovide_cursor_animate_in_command_mode = true
   vim.g.neovide_cursor_animate_in_term_mode = true
+  vim.g.neovide_input_ime = true
 end
