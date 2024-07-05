@@ -33,7 +33,6 @@
   "import-cost.nvim": { "branch": "main", "commit": "332b9870c7b22dcfb297a0be7d7a87c148181694" },
   "inc-rename.nvim": { "branch": "main", "commit": "8ba77017ca468f3029bf88ef409c2d20476ea66b" },
   "indent-blankline.nvim": { "branch": "master", "commit": "65e20ab94a26d0e14acac5049b8641336819dfc7" },
-  "kubectl.nvim": { "branch": "main", "commit": "dfe060d51d82a76fc49b94814b6d1859d1faa158" },
   "lazy.nvim": { "branch": "main", "commit": "407e65c7924989c1efed6bbc89e6287e2d140f02" },
   "lazydev.nvim": { "branch": "main", "commit": "9876fde06f7fc07dca4fe386b0ecfd0d9fa97f6f" },
   "leap.nvim": { "branch": "main", "commit": "75c246f562ab34a92c359c3c4d2eb138768b92ec" },
