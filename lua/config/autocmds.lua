@@ -8,6 +8,7 @@
 
 -- vim.api.nvim_create_autocmd("User", {
 --   pattern = "PlugLoaded",
+--
 --   callback = function()
 --     vim.cmd("Trouble symbols toggle focus=false")
 --   end,
