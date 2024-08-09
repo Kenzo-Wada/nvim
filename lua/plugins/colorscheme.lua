@@ -9,6 +9,7 @@ return {
         italic_comments = true,
         hide_fillchars = false,
         terminal_colors = true,
+        borderless_telescope = false,
         theme = {
           highlights = {
             RainbowDelimiterRed = { fg = "#ff5ef1" },
@@ -29,6 +30,8 @@ return {
             SelectMode = { fg = "#5ea1ff" },
             TerminalMode = { fg = "#ffbd5e" },
             TerminalNormalMode = { fg = "#ffbd5e" },
+            LspInfoBorder = { fg = "#7b8496" },
+            GitSignsCurrentLineBlame = { fg = "#adb1ba" },
             -- ModesCopy = { bg = "#5ea1ff" },
             -- ModesDelete = { bg = "#ff6e5e" },
             -- ModesInsert = { fg = "#5eff6c" },
